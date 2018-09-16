@@ -3,10 +3,10 @@
 # Copyright (C) 2017-now  yuanchih-consult.com :chingyun@yuanchih-consult.com
 
 {
-    'name': u'會計科目表 - 台灣企業會計準則11 - IFRSs會計科目',
-    'version': '4.0',
+    'name': u'會計科目表 - 台灣企業會計準則 - IFRSs會計科目',
+    'version': '1.0',
     'category': 'Localization',
-    'author': ['yuanchih-consult.com: chingyun@yuanchih-consult.com'],
+    'author': ['www.yuanchih-consult.com'],
 
     'website': 'https://www.yuanchih-consult.com',
     'description': """
@@ -43,6 +43,17 @@ Including the following data in the Accounting Standards for Business Enterprise
 * 台灣財務報表設定
 
 * 調整小數點位數
+
+
+*特別感謝：
+
+★社群支持：打虎小王子Pogaso
+
+★技術支援：先捷電腦
+
+
+
+
 
     """,
     'depends': ['base', 'account'],
