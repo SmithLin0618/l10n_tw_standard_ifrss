@@ -47,7 +47,7 @@ Including the following data in the Accounting Standards for Business Enterprise
 
 *特別感謝：
 
-★社群支持：打虎小王子Pogaso
+★社群支持：工具人
 
 ★技術支援：先捷電腦
 
