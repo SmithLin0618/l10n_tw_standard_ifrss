@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--
+
+    Copyright (C) 2017-now  元植管理顧問 chingyun@yuanchih-consult.com    < PM and LTS >
+
+    調整小數點
+以台灣財務報表使用習慣 
+-->
+
+    <data noupdate="0">
+
+        <record id="base.TWD" model="res.currency">
+
+            <field name="rounding">1</field>
+         
+  <field name="position">before</field>
+        </record>
+
+        <record id="product.decimal_price" model="decimal.precision">
+
+            <field name="digits">2</field>
+        </record>
+        <record id="product.decimal_discount" model="decimal.precision">
+            <field name="digits">0</field>
+        </record>
+
+    </data>
+</odoo>
