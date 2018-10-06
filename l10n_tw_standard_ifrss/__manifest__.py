@@ -4,7 +4,7 @@
 
 {
     'name': u'會計科目表 - 台灣企業會計準則 - IFRSs會計科目',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Localization',
     'author': ['www.yuanchih-consult.com'],
 
