@@ -110,6 +110,7 @@
         </record>
         <record id="account.account_financial_report_42" model="account.financial.report">
             <field name="parent_id" ref="account.account_financial_report_41" />
+            <field name="account_report_id" ref="account.e_equity" />
         </record>
         <record id="account.account_financial_report_43" model="account.financial.report">
             <field name="parent_id" ref="account.account_financial_report_41" />
