@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <odoo>
 
@@ -9,399 +9,588 @@
 
 
         <record id="add_tax" model="account.tax.group">
-
             <field name="name">營業稅</field>
-
             <field name="sequence">10</field>
-
         </record>
         <record id="withholding_tax" model="account.tax.group">
-
             <field name="name">各類所得扣繳</field>
-
             <field name="sequence">20</field>
-
         </record>
         <record id="health_insurance" model="account.tax.group">
-
             <field name="name">補充保費</field>
-
             <field name="sequence">30</field>
         </record>
-
         <record id="tag1" model="account.account.tag">
-
-            <field name="name">加值型營業稅5%-銷售</field>
-
+            <field name="name">5%-銷售</field>
             <field name="applicability">taxes</field>
-
         </record>
 
         <record id="tag2" model="account.account.tag">
-
-            <field name="name">加值型營業稅5%-採購</field>
-
+            <field name="name">5%-採購</field>
             <field name="applicability">taxes</field>
-
         </record>
         <record id="tag3" model="account.account.tag">
-
             <field name="name">補充保費</field>
-
             <field name="applicability">taxes</field>
-
         </record>
         <record id="tag4" model="account.account.tag">
-
             <field name="name">各類所得扣繳</field>
-
             <field name="applicability">taxes</field>
-
         </record>
 
-
         <record id="vats_standard_business" model="account.tax.template">
-
-            <field name="name">加值型營業稅5%-銷售</field>
-
+            <field name="name">5%-銷售</field>
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="5" />
-
             <field name="type_tax_use">sale</field>
-
-            <field name="account_id" ref="account_221400" />
-
-            <field name="refund_account_id" ref="account_221400" />
-
-            <field name="tag_ids" eval="[(6, 0, [ref('tag1')])]" />
-
+<!--            <field name="account_id" ref="account_221400" />-->
+<!--            <field name="refund_account_id" ref="account_221400" />-->
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag1')])]" />-->
             <field name="description">營業稅5%</field>
             <field name="tax_group_id" ref="add_tax" />
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_221400'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_221400'),
+                }),
+            ]"/>
         </record>
 
 
         <record id="vatp_standard_business" model="account.tax.template">
-
-            <field name="name">加值型營業稅5%-採購</field>
-
+            <field name="name">5%-採購</field>
             <field name="amount" eval="5" />
-
             <field name="type_tax_use">purchase</field>
-
             <field name="amount_type">percent</field>
-
-            <field name="account_id" ref="account_142300" />
-
-            <field name="refund_account_id" ref="account_142300" />
-
+<!--            <field name="account_id" ref="account_142300" />-->
+<!--            <field name="refund_account_id" ref="account_142300" />-->
             <field name="description">營業稅5%</field>
             <field name="tax_group_id" ref="add_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag2')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag2')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_142300'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_142300'),
+                }),
+            ]"/>
         </record>
-
         <record id="vats_standard_business_in" model="account.tax.template">
-
-            <field name="name">加值型營業稅5%-銷售價內</field>
-
+            <field name="name">5%-銷售價內</field>
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="5" />
-
             <field name="type_tax_use">sale</field>
-
-            <field name="account_id" ref="account_221400" />
-
-            <field name="refund_account_id" ref="account_221400" />
-
-            <field name="tag_ids" eval="[(6, 0, [ref('tag1')])]" />
-
+<!--            <field name="account_id" ref="account_221400" />-->
+<!--            <field name="refund_account_id" ref="account_221400" />-->
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag1')])]" />-->
             <field name="description">營業稅5%(價內)</field>
             <field name="include_base_amount" eval="True"/>
             <field name="price_include" eval="True"/>
             <field name="tax_group_id" ref="add_tax" />
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_221400'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_221400'),
+                }),
+            ]"/>
         </record>
-
         <record id="vatp_standard_business_in" model="account.tax.template">
-
-            <field name="name">加值型營業稅5%-採購價內</field>
-
+            <field name="name">5%-採購價內</field>
             <field name="amount" eval="5" />
-
             <field name="type_tax_use">purchase</field>
-
             <field name="amount_type">percent</field>
-
-            <field name="account_id" ref="account_142300" />
-
-            <field name="refund_account_id" ref="account_142300" />
-
+<!--            <field name="account_id" ref="account_142300" />-->
+<!--            <field name="refund_account_id" ref="account_142300" />-->
             <field name="description">營業稅5%(價內)</field>
             <field name="include_base_amount" eval="True"/>
             <field name="price_include" eval="True"/>
             <field name="tax_group_id" ref="add_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag2')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag2')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_142300'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_142300'),
+                }),
+            ]"/>
         </record>
         <record id="50_withholding_tax" model="account.tax.template">
-
             <field name="name">50-薪資-5%境內扣繳</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-5" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">50-境內-扣繳率5%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
-        </record>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+        </record>
         <record id="51_withholding_tax" model="account.tax.template">
-
             <field name="name">51-租金-10%境內扣繳</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-10" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">51-境內-扣繳率10%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="53_withholding_tax" model="account.tax.template">
-
             <field name="name">53-權利金-10%境內扣繳</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-10" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">53-境內-扣繳率10%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="5b_withholding_tax" model="account.tax.template">
-
             <field name="name">5B-其他利息-10%境內扣繳</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-10" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">5B-境內-扣繳率10%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="54f_withholding_tax" model="account.tax.template">
-
             <field name="name">54F-營利所得(86年後股利)-0%境內通報</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="0" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">54F-境內-扣繳率0%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
         </record>
         <record id="9a_withholding_tax" model="account.tax.template">
-
             <field name="name">9A-執行業務-10%境內扣繳</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-10" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">9A-境內-扣繳率0%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="9b_withholding_tax" model="account.tax.template">
-
             <field name="name">9B-稿費版稅等-10%境內扣繳</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-10" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">9B-境內-扣繳率10%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="91_withholding_tax" model="account.tax.template">
-
             <field name="name">91-競技競賽機會中獎-10%境內扣繳</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-10" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">91-境內-扣繳率10%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="93_withholding_tax" model="account.tax.template">
-
             <field name="name">93-退職所得-6%境內扣繳</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-6" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">93-境內-扣繳率6%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="92_withholding_tax" model="account.tax.template">
-
             <field name="name">92其他所得-0%境內通報</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="0" />
-
             <field name="type_tax_use">none</field>
-
-            <field name="account_id" ref="account_233000" />
-
-            <field name="refund_account_id" ref="account_233000" />
-
+<!--            <field name="account_id" ref="account_233000" />-->
+<!--            <field name="refund_account_id" ref="account_233000" />-->
             <field name="description">92-境內-扣繳率0%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="fc_withholding_tax" model="account.tax.template">
-
             <field name="name">20%境外扣繳率</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-20" />
-
             <field name="type_tax_use">none</field>
-
+<!--
             <field name="account_id" ref="account_233000" />
-
             <field name="refund_account_id" ref="account_233000" />
-
+-->
             <field name="description">境外-扣繳率20%</field>
             <field name="tax_group_id" ref="withholding_tax" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag4')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
         <record id="191_health_insurance" model="account.tax.template">
-
             <field name="name">二代健保補充保費1.91%</field>
-
             <field name="amount_type">percent</field>
-
             <field name="amount" eval="-1.91" />
-
             <field name="type_tax_use">none</field>
-
+<!--
             <field name="account_id" ref="account_233000" />
-
             <field name="refund_account_id" ref="account_233000" />
-
+-->
             <field name="description">補充保費-1.91%</field>
             <field name="tax_group_id" ref="health_insurance" />
-            <field name="tag_ids" eval="[(6, 0, [ref('tag3')])]" />
-
+<!--            <field name="tag_ids" eval="[(6, 0, [ref('tag3')])]" />-->
             <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
-
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_233000'),
+                }),
+            ]"/>
         </record>
     </data>
 
