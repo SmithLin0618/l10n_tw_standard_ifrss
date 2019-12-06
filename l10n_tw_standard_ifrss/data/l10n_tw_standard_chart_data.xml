@@ -15,6 +15,7 @@
             <field name="currency_id" ref="base.TWD" />
             <field name="cash_account_code_prefix">1102</field>
             <field name="bank_account_code_prefix">1103</field>
+            <field name="transfer_account_code_prefix">1104</field>
             <field name="transfer_account_id" ref="account_110500" />
         </record>
         <record id="account_110500" model="account.account.template">
