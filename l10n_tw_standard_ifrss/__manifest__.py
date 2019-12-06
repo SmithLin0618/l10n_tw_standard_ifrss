@@ -4,7 +4,7 @@
 
 {
     'name': u'會計科目表 - 台灣企業會計準則 - IFRSs會計科目',
-    'version': '1.1',
+    'version': '1.0',
     'category': 'Localization',
     'author': ['www.yuanchih-consult.com'],
 
@@ -56,14 +56,13 @@ Including the following data in the Accounting Standards for Business Enterprise
 
 
     """,
-    'depends': ['base', 'account'],
+    'depends': ['base', 'account','accounting_pdf_reports'],
     'data': [
         'data/account_account_type_data.xml',
         'data/l10n_tw_standard_chart_data.xml',
         'data/account.account.template.csv',
         'data/account_tax_templates.xml',
         'data/account_chart_template_data.xml',
-        'data/account_chart_template_data.yml',
         'data/data_taiwan.xml',
         'data/account.financial.report.csv',
         'data/account.financial.report.xml',
