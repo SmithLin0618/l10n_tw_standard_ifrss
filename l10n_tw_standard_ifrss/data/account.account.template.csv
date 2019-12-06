@@ -967,7 +967,7 @@ account_832300,832300,採用權益法認列關聯企業及合資之指定損益�
 account_832400,832400,採用權益法認列關聯企業及合資之與待出售非流動資產直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_832500,832500,採用權益法認列關聯企業及合資之與與待分配予業主之非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_832600,832600,採用權益法認列關聯企業及合資之透過其他綜合損益按公允價值衡量權益工具未實現評價損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_831700,831700,採用權益法認列關聯企業及合資之避險工具之損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_832700,832700,採用權益法認列關聯企業及合資之避險工具之損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_833000,833000,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-不重分類至損益之項目,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_833100,833100,採用權益法認列子公司、關聯企業及合資之確定福利計畫再衡量數,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_833200,833200,採用權益法認列子公司、關聯企業及合資之不動產重估增值,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
