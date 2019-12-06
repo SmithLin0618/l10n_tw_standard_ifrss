@@ -56,7 +56,7 @@ Including the following data in the Accounting Standards for Business Enterprise
 
 
     """,
-    'depends': ['base', 'account'],
+    'depends': ['base', 'account','accounting_pdf_reports'],
     'data': [
         'data/account_account_type_data.xml',
         'data/l10n_tw_standard_chart_data.xml',
