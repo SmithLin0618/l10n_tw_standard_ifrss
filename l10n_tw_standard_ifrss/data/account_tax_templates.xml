@@ -23,19 +23,23 @@
         <record id="tag1" model="account.account.tag">
             <field name="name">5%-銷售</field>
             <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.tw"/>
         </record>
 
         <record id="tag2" model="account.account.tag">
             <field name="name">5%-採購</field>
             <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.tw"/>
         </record>
         <record id="tag3" model="account.account.tag">
             <field name="name">補充保費</field>
             <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.tw"/>
         </record>
         <record id="tag4" model="account.account.tag">
             <field name="name">各類所得扣繳</field>
             <field name="applicability">taxes</field>
+            <field name="country_id" ref="base.tw"/>
         </record>
 
         <record id="vats_standard_business" model="account.tax.template">
