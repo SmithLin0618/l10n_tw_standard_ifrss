@@ -19,7 +19,7 @@
         <record id="health_insurance" model="account.tax.group">
             <field name="name">補充保費</field>
             <field name="sequence">30</field>
-        </record>
+<!--         </record>
         <record id="tag1" model="account.account.tag">
             <field name="name">5%-銷售</field>
             <field name="applicability">taxes</field>
@@ -36,7 +36,7 @@
         <record id="tag4" model="account.account.tag">
             <field name="name">各類所得扣繳</field>
             <field name="applicability">taxes</field>
-        </record>
+        </record> -->
 
         <record id="vats_standard_business" model="account.tax.template">
             <field name="name">5%-銷售</field>
