@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
     <data noupdate="0">
@@ -15,10 +15,7 @@
             <field name="currency_id" ref="base.TWD" />
             <field name="cash_account_code_prefix">1102</field>
             <field name="bank_account_code_prefix">1103</field>
-            <field name="transfer_account_id" ref="account_110500" />
-        </record>
-        <record id="account_110500" model="account.account.template">
-            <field name="chart_template_id" ref="l10n_chart_taiwan_standard_business" />
+            <field name="transfer_account_code_prefix">1105</field>
         </record>
     </data>
 </odoo>
