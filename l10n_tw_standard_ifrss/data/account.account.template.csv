@@ -46,7 +46,7 @@ account_116100,116100,應收票據-關係人,TRUE,account.data_account_type_rece
 account_116200,116200,其他應收票據-關係人,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_116300,116300,應收票據貼現-關係人,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_116900,116900,備抵損失-應收關係人票據,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
-account_117100,117100,應收銷售及管理費(證券投資信託業適用),TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
+account_117100,117100,應收銷售及管理費（證券投資信託業適用）,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_117200,117200,應收帳款,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_117300,117300,應收分期帳款,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_117400,117400,未實現利息收入-應收分期帳款,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
@@ -64,7 +64,7 @@ account_119000,119000,應收建造合約款,TRUE,account.data_account_type_recei
 account_119500,119500,應收建造合約款-關係人,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_120000,120000,其他應收款,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_120100,120100,應收退稅款,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
-account_120200,120200,未收代收款(海陸運輸業適用),TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
+account_120200,120200,未收代收款（海陸運輸業適用）,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_120300,120300,應收工程保留款,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_120400,120400,應收歸墊款,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
 account_120500,120500,應收收益,TRUE,account.data_account_type_receivable,l10n_chart_taiwan_standard_business
@@ -91,7 +91,7 @@ account_131500,131500,原料,FALSE,account.data_account_type_current_assets,l10n
 account_131600,131600,物料,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_131800,131800,在途原物料,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_131900,131900,備抵存貨跌價,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_132000,132000,存貨(建設業適用),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_132000,132000,存貨（建設業適用）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_132100,132100,待售房地,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_132200,132200,待售車位,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_132300,132300,營建用地,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
@@ -103,11 +103,11 @@ account_132900,132900,備抵存貨跌價,FALSE,account.data_account_type_current
 account_133000,133000,存貨-其他行業,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_133100,133100,油料,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_133200,133200,物料,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_133300,133300,餐飲用品(餐飲業),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_133300,133300,餐飲用品（餐飲業）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_133800,133800,其他存貨,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_133900,133900,備抵存貨跌價,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_134000,134000,農產品,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_135000,135000,在建工程(營造業適用),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_135000,135000,在建工程（營造業適用）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_135100,135100,在建材料,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_135200,135200,在建工料,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_135300,135300,在建人工,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
@@ -127,7 +127,7 @@ account_140800,140800,生產性生物資產公允價值減出售成本累計變�
 account_141000,141000,預付款項,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_141100,141100,預付薪資,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_141200,141200,預付租金,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_141300,141300,船長週轉金(海陸運輸業適用),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_141300,141300,船長週轉金（海陸運輸業適用）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_141400,141400,預付保險費,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_141500,141500,用品盤存,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_141600,141600,淨確定福利資產-流動,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
@@ -137,16 +137,16 @@ account_142200,142200,預付投資款,FALSE,account.data_account_type_current_as
 account_142300,142300,進項稅額,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_142400,142400,留抵稅額,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_142900,142900,其他預付款,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_145100,145100,待分配予業主之非流動資產(或處分群組),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_145200,145200,累計減損-待分配予業主之非流動資產(或處分群組),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_146100,146100,待出售非流動資產(或處分群組),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_146200,146200,累計減損-待出售非流動資產(或處分群組),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_145100,145100,待分配予業主之非流動資產（或處分群組）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_145200,145200,累計減損-待分配予業主之非流動資產（或處分群組）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_146100,146100,待出售非流動資產（或處分群組）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_146200,146200,累計減損-待出售非流動資產（或處分群組）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_147000,147000,其他流動資產,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_147100,147100,暫付款,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_147200,147200,代付款,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_147300,147300,員工(船員)借支,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_147300,147300,員工（船員）借支,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_147400,147400,遞延兌換損失,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
-account_147500,147500,代理店往來(海陸運輸業適用),FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
+account_147500,147500,代理店往來（海陸運輸業適用）,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_147600,147600,其他金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_147800,147800,工程存出保證金,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
 account_147900,147900,其他流動資產-其他,FALSE,account.data_account_type_current_assets,l10n_chart_taiwan_standard_business
@@ -190,114 +190,114 @@ account_156000,156000,合約資產-非流動,FALSE,account.data_account_type_non
 account_156100,156100,合約資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_156200,156200,備抵損失-合約資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_160200,160200,土地成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_160300,160300,土地-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_160300,160300,土地-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_160400,160400,累計減損-土地,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_160600,160600,土地改良物成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_160700,160700,土地改良物-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_160700,160700,土地改良物-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_160800,160800,累計折舊-土地改良物,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_160900,160900,累計減損-土地改良物,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_161100,161100,房屋及建築成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_161200,161200,房屋及建築-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_161200,161200,房屋及建築-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_161300,161300,累計折舊-房屋及建築,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_161400,161400,累計減損-房屋及建築,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_161600,161600,機器設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_161700,161700,機器設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_161700,161700,機器設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_161800,161800,累計折舊-機器設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_161900,161900,累計減損-機器設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_162100,162100,裝卸設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_162200,162200,裝卸設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_162200,162200,裝卸設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_162300,162300,累計折舊-裝卸設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_162400,162400,累計減損-裝卸設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_162600,162600,倉儲設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_162700,162700,倉儲設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_162700,162700,倉儲設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_162800,162800,累計折舊-倉儲設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_162900,162900,累計減損-倉儲設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_163100,163100,售氣及輸氣設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_163200,163200,售氣及輸氣設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_163200,163200,售氣及輸氣設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_163300,163300,累計折舊-售氣及輸氣設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_163400,163400,累計減損-售氣及輸氣設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_163600,163600,模具設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_163700,163700,模具設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_163700,163700,模具設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_163800,163800,累計折舊-模具設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_163900,163900,累計減損-模具設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_164100,164100,水電設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_164200,164200,水電設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_164200,164200,水電設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_164300,164300,累計折舊-水電設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_164400,164400,累計減損-水電設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_164600,164600,冷凍設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_164700,164700,冷凍設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_164700,164700,冷凍設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_164800,164800,累計折舊-冷凍設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_164900,164900,累計減損-冷凍設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_165100,165100,漁船設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_165200,165200,漁船設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_165200,165200,漁船設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_165300,165300,累計折舊-漁船設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_165400,165400,累計減損-漁船設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_165600,165600,電腦通訊設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_165700,165700,電腦通訊設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_165700,165700,電腦通訊設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_165800,165800,累計折舊-電腦通訊設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_165900,165900,累計減損-電腦通訊設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_166100,166100,試驗設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_166200,166200,試驗設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_166200,166200,試驗設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_166300,166300,累計折舊-試驗設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_166400,166400,累計減損-試驗設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_166600,166600,污染防治設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_166700,166700,污染防治設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_166700,166700,污染防治設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_166800,166800,累計折舊-污染防治設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_166900,166900,累計減損-污染防治設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_167100,167100,運輸設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_167200,167200,運輸設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_167200,167200,運輸設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_167300,167300,累計折舊-運輸設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_167400,167400,累計減損-運輸設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_167600,167600,船舶設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_167700,167700,船舶設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_167700,167700,船舶設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_167800,167800,累計折舊-船舶設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_167900,167900,累計減損-船舶設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_168100,168100,碼頭設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_168200,168200,碼頭設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_168200,168200,碼頭設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_168300,168300,累計折舊-碼頭設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_168400,168400,累計減損-碼頭設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_168600,168600,飛航設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_168700,168700,飛航設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_168700,168700,飛航設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_168800,168800,累計折舊-飛航設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_168900,168900,累計減損-飛航設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_169100,169100,辦公設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_169200,169200,辦公設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_169200,169200,辦公設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_169300,169300,累計折舊-辦公設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_169400,169400,累計減損-辦公設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_169600,169600,營業器具成本(觀光飯店業適用),FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_169700,169700,營業器具-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_169600,169600,營業器具成本（觀光飯店業適用）,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_169700,169700,營業器具-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_169800,169800,累計折舊-營業器具,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_169900,169900,累計減損-營業器具,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_170100,170100,機具設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_170200,170200,機具設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_170200,170200,機具設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_170300,170300,累計折舊-機具設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_170400,170400,累計減損-機具設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_170600,170600,遊樂設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_170700,170700,遊樂設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_170700,170700,遊樂設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_170800,170800,累計折舊-遊樂設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_170900,170900,累計減損-遊樂設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_171100,171100,景觀園藝成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_171200,171200,景觀園藝-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_171200,171200,景觀園藝-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_171300,171300,累計折舊-景觀園藝,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_171400,171400,累計減損-景觀園藝,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_171600,171600,租賃資產成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_171700,171700,租賃資產-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_171700,171700,租賃資產-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_171800,171800,累計折舊-租賃資產,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_171900,171900,累計減損-租賃資產,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_172100,172100,出租資產-機器設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_172200,172200,出租資產-機器設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_172200,172200,出租資產-機器設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_172300,172300,累計折舊-出租資產-機器設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_172400,172400,累計減損-出租資產-機器設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_172600,172600,出租資產-其他成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_172700,172700,出租資產-其他-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_172700,172700,出租資產-其他-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_172800,172800,累計折舊-出租資產-其他,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_172900,172900,累計減損-出租資產-其他,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_173100,173100,租賃改良成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_173200,173200,租賃改良-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_173200,173200,租賃改良-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_173300,173300,累計折舊-租賃改良,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_173400,173400,累計減損-租賃改良,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_173600,173600,其他設備成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_173700,173700,其他設備-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_173700,173700,其他設備-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_173800,173800,累計折舊-其他設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_173900,173900,累計減損-其他設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_174000,174000,未完工程及待驗設備,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
@@ -305,9 +305,9 @@ account_174500,174500,生產性植物,FALSE,account.data_account_type_fixed_asse
 account_174600,174600,生產性植物成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_174700,174700,生產性植物-累計折舊,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_174800,174800,生產性植物-累計減損,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_174900,174900,生產性植物-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_174900,174900,生產性植物-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_175100,175100,礦產資源成本,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_175200,175200,礦產資源-重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_175200,175200,礦產資源-重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_175300,175300,累計折耗-礦產資源,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_175400,175400,累計減損-礦產資源,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_176100,176100,投資性不動產-土地,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
@@ -326,26 +326,26 @@ account_177400,177400,建造中之投資性不動產-累計公允價值變動數
 account_177500,177500,累計減損-建造中之投資性不動產,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_178000,178000,無形資產,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_178200,178200,商標權,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_178300,178300,商標權重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_178300,178300,商標權重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_178400,178400,累計減損－商標權,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_178600,178600,專利權,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_178700,178700,專利權重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_178700,178700,專利權重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_178800,178800,累計減損－專利權,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_179200,179200,特許權,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_179300,179300,特許權重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_179300,179300,特許權重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_179400,179400,累計減損－特許權,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_179600,179600,著作權,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_179700,179700,著作權重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_179700,179700,著作權重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_179800,179800,累計減損－著作權,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_180200,180200,電腦軟體,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_180300,180300,電腦軟體重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_180300,180300,電腦軟體重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_180400,180400,累計減損－電腦軟體,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_180500,180500,商譽,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_181200,181200,專門技術,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_181300,181300,專門技術重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_181300,181300,專門技術重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_181400,181400,累計減損－專門技術,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_182200,182200,其他無形資產,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
-account_182300,182300,其他無形資產重估增(減)值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
+account_182300,182300,其他無形資產重估增（減）值,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_182400,182400,累計減損－其他無形資產,FALSE,account.data_account_type_fixed_assets,l10n_chart_taiwan_standard_business
 account_182600,182600,發展中之無形資產,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_182700,182700,累計減損－發展中之無形資產,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
@@ -361,11 +361,11 @@ account_183800,183800,生產性生物資產公允價值減出售成本累計變�
 account_184000,184000,遞延所得稅資產,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_190000,190000,其他非流動資產,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_190600,190600,有形探勘及評估資產成本,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
-account_190700,190700,有形探勘及評估資產重估增(減)值,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
+account_190700,190700,有形探勘及評估資產重估增（減）值,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_190800,190800,累計折舊-有形探勘及評估資產,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_190900,190900,累計減損-有形探勘及評估資產,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_191100,191100,無形探勘及評估資產成本,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
-account_191200,191200,無形探勘及評估資產重估增(減)值,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
+account_191200,191200,無形探勘及評估資產重估增（減）值,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_191400,191400,累計減損-無形探勘及評估資產,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_191500,191500,預付設備款,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
 account_192000,192000,存出保證金,FALSE,account.data_account_type_non_current_assets,l10n_chart_taiwan_standard_business
@@ -474,9 +474,9 @@ account_225600,225600,除役、復原及修復成本之短期負債準備,FALSE,
 account_225700,225700,銷貨退回及折讓之短期負債準備,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_225800,225800,保證合約之短期負債準備,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_225900,225900,其他短期負債準備,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
-account_226000,226000,與待出售非流動資產(或處分群組)直接相關之負債,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
+account_226000,226000,與待出售非流動資產（或處分群組）直接相關之負債,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_226500,226500,工程進度請款金額,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
-account_227000,227000,與待分配予業主之非流動資產(或處分群組)直接相關之負債,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
+account_227000,227000,與待分配予業主之非流動資產（或處分群組）直接相關之負債,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_230000,230000,其他流動負債,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_230500,230500,其他金融負債-流動,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_231000,231000,預收款項,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
@@ -494,7 +494,7 @@ account_232500,232500,特別股負債-流動,FALSE,account.data_account_type_cur
 account_233000,233000,暫收款,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_233500,233500,代收款,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_234000,234000,遞延兌換利益,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
-account_235000,235000,代理店往來(海陸運輸業適用),FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
+account_235000,235000,代理店往來（海陸運輸業適用）,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_235500,235500,應付租賃款－流動,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_236000,236000,淨確定福利負債-流動,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
 account_236500,236500,退款負債-流動,FALSE,account.data_account_type_current_liabilities,l10n_chart_taiwan_standard_business
@@ -511,7 +511,7 @@ account_252500,252500,以成本衡量之金融負債-非流動,FALSE,account.dat
 account_252700,252700,合約負債-非流動,FALSE,account.data_account_type_non_current_liabilities,l10n_chart_taiwan_standard_business
 account_253000,253000,應付公司債,FALSE,account.data_account_type_non_current_liabilities,l10n_chart_taiwan_standard_business
 account_253100,253100,應付公司債,FALSE,account.data_account_type_non_current_liabilities,l10n_chart_taiwan_standard_business
-account_253200,253200,應付公司債溢(折)價,FALSE,account.data_account_type_non_current_liabilities,l10n_chart_taiwan_standard_business
+account_253200,253200,應付公司債溢（折）價,FALSE,account.data_account_type_non_current_liabilities,l10n_chart_taiwan_standard_business
 account_254000,254000,長期借款,FALSE,account.data_account_type_non_current_liabilities,l10n_chart_taiwan_standard_business
 account_254100,254100,銀行長期借款,FALSE,account.data_account_type_non_current_liabilities,l10n_chart_taiwan_standard_business
 account_254200,254200,其他長期借款,FALSE,account.data_account_type_non_current_liabilities,l10n_chart_taiwan_standard_business
@@ -578,7 +578,7 @@ account_328000,328000,資本公積-其他,FALSE,account.data_account_type_equity
 account_330000,330000,保留盈餘,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_331000,331000,法定盈餘公積,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_332000,332000,特別盈餘公積,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_335000,335000,未分配盈餘(或待彌補虧損),FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_335000,335000,未分配盈餘（或待彌補虧損）,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_335100,335100,累積盈虧,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_335200,335200,追溯適用及追溯重編之影響數,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_335300,335300,本期損益,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
@@ -596,14 +596,14 @@ account_342500,342500,備供出售金融資產未實現損益,FALSE,account.data
 account_342600,342600,備供出售金融資產未實現損益-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_342700,342700,備供出售金融資產未實現損益-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_342800,342800,備供出售金融資產未實現損益-採用權益法之關聯企業及合資,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_343000,343000,現金流量避險中屬有效避險部分之避險工具利益(損失),FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_343100,343100,現金流量避險中屬有效避險部分之避險工具利益(損失)-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_343200,343200,現金流量避險中屬有效避險部分之避險工具利益(損失)-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_343300,343300,現金流量避險中屬有效避險部分之避險工具利益(損失-採用權益法之關聯企業及合資),FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_343500,343500,國外營運機構淨投資避險中屬有效避險部分之避險工具利益(損失),FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_343600,343600,國外營運機構淨投資避險中屬有效避險部分之避險工具利益(損失)-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_343700,343700,國外營運機構淨投資避險中屬有效避險部分之避險工具利益(損失)-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_343800,343800,國外營運機構淨投資避險中屬有效避險部分之避險工具利益(損失)-採用權益法之關聯企業及合資,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_343000,343000,現金流量避險中屬有效避險部分之避險工具利益（損失）,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_343100,343100,現金流量避險中屬有效避險部分之避險工具利益（損失）-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_343200,343200,現金流量避險中屬有效避險部分之避險工具利益（損失）-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_343300,343300,現金流量避險中屬有效避險部分之避險工具利益（損失-採用權益法之關聯企業及合資）,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_343500,343500,國外營運機構淨投資避險中屬有效避險部分之避險工具利益（損失）,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_343600,343600,國外營運機構淨投資避險中屬有效避險部分之避險工具利益（損失）-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_343700,343700,國外營運機構淨投資避險中屬有效避險部分之避險工具利益（損失）-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_343800,343800,國外營運機構淨投資避險中屬有效避險部分之避險工具利益（損失）-採用權益法之關聯企業及合資,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_344000,344000,指定按公允價值衡量之金融負債信用風險變動影響數,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_344100,344100,指定按公允價值衡量之金融負債信用風險變動影響數-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_344200,344200,指定按公允價值衡量之金融負債信用風險變動影響數-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
@@ -620,39 +620,39 @@ account_346000,346000,重估增值,FALSE,account.data_account_type_equity,l10n_c
 account_346100,346100,不動產重估增值-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_346200,346200,不動產重估增值-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_346300,346300,不動產重估增值-採用權益法之關聯企業及合資,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_347000,347000,與待出售非流動資產(或處分群組)直接相關之權益,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_347100,347100,與待出售非流動資產(或處分群組)直接相關之權益-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_347200,347200,與待出售非流動資產(或處分群組)直接相關之權益-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_347300,347300,與待出售非流動資產(或處分群組)直接相關之權益-採用權益法之關聯企業及合資,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_348000,348000,與待分配予業主之非流動資產(或處分群組)直接相關之權益,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_348100,348100,與待分配予業主之非流動資產(或處分群組)直接相關之權益-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_348200,348200,與待分配予業主之非流動資產(或處分群組)直接相關之權益-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_348300,348300,與待分配予業主之非流動資產(或處分群組)直接相關之權益-採用權益法之關聯企業及合資,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_347000,347000,與待出售非流動資產（或處分群組）直接相關之權益,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_347100,347100,與待出售非流動資產（或處分群組）直接相關之權益-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_347200,347200,與待出售非流動資產（或處分群組）直接相關之權益-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_347300,347300,與待出售非流動資產（或處分群組）直接相關之權益-採用權益法之關聯企業及合資,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_348000,348000,與待分配予業主之非流動資產（或處分群組）直接相關之權益,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_348100,348100,與待分配予業主之非流動資產（或處分群組）直接相關之權益-母公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_348200,348200,與待分配予業主之非流動資產（或處分群組）直接相關之權益-採用權益法之子公司,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_348300,348300,與待分配予業主之非流動資產（或處分群組）直接相關之權益-採用權益法之關聯企業及合資,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_349000,349000,其他權益-其他,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_349100,349100,其他權益-員工未賺得酬勞,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_349900,349900,其他權益-其他,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_350000,350000,庫藏股票,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_360000,360000,非控制權益,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_399700,399700,待註銷股本股數,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_399800,399800,預收股款(權益項下)之約當發行股數,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
-account_399900,399900,母公司暨子公司所持有之母公司庫藏股股數(單位:股),FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_399800,399800,預收股款（權益項下）之約當發行股數,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
+account_399900,399900,母公司暨子公司所持有之母公司庫藏股股數（單位:股）,FALSE,account.data_account_type_equity,l10n_chart_taiwan_standard_business
 account_411000,411000,銷貨收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_411100,411100,銷貨收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_411200,411200,天然氣銷貨收入(天然氣業),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_412000,412000,專櫃銷貨收入(百貨業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_411200,411200,天然氣銷貨收入（天然氣業）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_412000,412000,專櫃銷貨收入（百貨業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_413000,413000,分期付款銷貨收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_417000,417000,銷貨退回,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_419000,419000,銷貨折讓,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_420000,420000,投資收入(投資公司適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_421000,421000,金融資產(負債)出售淨利益,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_420000,420000,投資收入（投資公司適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_421000,421000,金融資產（負債）出售淨利益,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_422000,422000,投資收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_422100,422100,股利收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_422200,422200,採用權益法之關聯企業及合資利益之份額,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_422300,422300,透過損益按公允價值衡量之金融資產(負債)利益,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_422300,422300,透過損益按公允價值衡量之金融資產（負債）利益,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_423000,423000,債息收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_424000,424000,利息收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_425000,425000,酬勞收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_426000,426000,地產出售收入(開發投資公司適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_426000,426000,地產出售收入（開發投資公司適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_430000,430000,租賃收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_431000,431000,租賃收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_433000,433000,倉儲收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
@@ -669,7 +669,7 @@ account_442200,442200,商品收入,FALSE,account.data_account_type_revenue,l10n_
 account_442300,442300,遊樂收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_442900,442900,育樂收入折讓,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_450000,450000,營建工程收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_451000,451000,營建收入(營建業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_451000,451000,營建收入（營建業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_451100,451100,營建收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_451900,451900,營建收入退回及折讓,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_452000,452000,工程收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
@@ -678,18 +678,18 @@ account_452900,452900,工程收入退回及折讓,FALSE,account.data_account_typ
 account_460000,460000,勞務收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_461000,461000,勞務收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_461100,461100,勞務收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_461200,461200,拆併櫃收入(海陸運輸業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_461300,461300,代理業收入(海陸運輸業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_461200,461200,拆併櫃收入（海陸運輸業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_461300,461300,代理業收入（海陸運輸業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_461400,461400,佣金收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_461500,461500,管理費收入(證券投資信託業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_461600,461600,銷售費收入(證券投資信託業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_461500,461500,管理費收入（證券投資信託業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_461600,461600,銷售費收入（證券投資信託業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_461700,461700,貨櫃場作業收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_461800,461800,設計收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_461900,461900,勞務收入折讓,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_462000,462000,運輸收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_462100,462100,海運收入(海陸運輸業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_462200,462200,陸運收入(海陸運輸業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
-account_462300,462300,空運收入(航空業適用),FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_462100,462100,海運收入（海陸運輸業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_462200,462200,陸運收入（海陸運輸業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
+account_462300,462300,空運收入（航空業適用）,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_462900,462900,運輸收入折讓,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_463000,463000,空中營業收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_464000,464000,裝置收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
@@ -711,21 +711,21 @@ account_480000,480000,其他營業收入,FALSE,account.data_account_type_revenue
 account_488100,488100,其他營業收入,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_488900,488900,其他營業收入折讓,FALSE,account.data_account_type_revenue,l10n_chart_taiwan_standard_business
 account_511100,511100,銷貨成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_511200,511200,天然氣銷貨成本(天然氣業),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_512000,512000,專櫃銷貨成本(百貨業適用),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_520000,520000,投資支出(投資公司適用),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_521000,521000,金融資產(負債)出售淨損失,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_511200,511200,天然氣銷貨成本（天然氣業）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_512000,512000,專櫃銷貨成本（百貨業適用）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_520000,520000,投資支出（投資公司適用）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_521000,521000,金融資產（負債）出售淨損失,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_522000,522000,投資損失,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_522100,522100,投資損失,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_522200,522200,採用權益法之關聯企業及合資損失之份額,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_522300,522300,透過損益按公允價值衡量之金融資產(負債)損失,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_522300,522300,透過損益按公允價值衡量之金融資產（負債）損失,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_524000,524000,利息費用,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_526000,526000,地產出售成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_530000,530000,租賃成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_531000,531000,租賃成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_533000,533000,倉儲成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_534000,534000,電信成本(電訊網路業),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_540000,540000,旅遊服務成本(觀光飯店業適用),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_534000,534000,電信成本（電訊網路業）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_540000,540000,旅遊服務成本（觀光飯店業適用）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_541000,541000,餐旅服務成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_541100,541100,客房成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_541200,541200,餐飲成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
@@ -742,18 +742,18 @@ account_560000,560000,勞務成本,FALSE,account.data_account_type_direct_costs,
 account_561000,561000,勞務成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_561100,561100,勞務成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_561800,561800,設計成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_562000,562000,"運輸成本(海陸運輸業、航空業適用)		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_562100,562100,"海運成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_562200,562200,"陸運成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_562300,562300,"空運成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_562400,562400,"場站及運務成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_562500,562500,"旅客服務成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_563000,563000,"空中營業成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_564000,564000,"裝置成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_565000,565000,"技術服務費用		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_566000,566000,"加工成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_567000,567000,"維修成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_568000,568000,"其他勞務成本		",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_562000,562000,"運輸成本（海陸運輸業、航空業適用）",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_562100,562100,"海運成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_562200,562200,"陸運成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_562300,562300,"空運成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_562400,562400,"場站及運務成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_562500,562500,"旅客服務成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_563000,563000,"空中營業成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_564000,564000,"裝置成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_565000,565000,"技術服務費用",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_566000,566000,"加工成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_567000,567000,"維修成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_568000,568000,"其他勞務成本",FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_570000,570000,標準成本差異,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_571000,571000,直接原料差異,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_571100,571100,直接原料價格差異,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
@@ -766,10 +766,10 @@ account_573100,573100,製造費用用款差異,FALSE,account.data_account_type_d
 account_573200,573200,製造費用效率差異,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_573300,573300,製造費用數量差異,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_580000,580000,其他營業成本,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_585000,585000,原始認列生物資產及農產品之利益(損失),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_586000,586000,生物資產當期公允價值減出售成本之變動利益(損失),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_591000,591000,未實現銷貨利益(損失),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
-account_592000,592000,已實現銷貨利益(損失),FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_585000,585000,原始認列生物資產及農產品之利益（損失）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_586000,586000,生物資產當期公允價值減出售成本之變動利益（損失）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_591000,591000,未實現銷貨利益（損失）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
+account_592000,592000,已實現銷貨利益（損失）,FALSE,account.data_account_type_direct_costs,l10n_chart_taiwan_standard_business
 account_610000,610000,推銷費用,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_611000,611000,推銷費用-薪資支出,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_611100,611100,推銷費用-租金支出,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
@@ -791,8 +791,8 @@ account_612800,612800,推銷費用-職工福利,FALSE,account.data_account_type_
 account_613000,613000,推銷費用-佣金支出,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_613100,613100,推銷費用-訓練費,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_613200,613200,推銷費用-進出口費用,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
-account_615100,615100,"推銷費用-漁業作業費用		",FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
-account_615300,615300,"推銷費用-漁貨銷售費用		",FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
+account_615100,615100,"推銷費用-漁業作業費用",FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
+account_615300,615300,"推銷費用-漁貨銷售費用",FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_618800,618800,推銷費用-其他費用,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_620000,620000,管理費用,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_621000,621000,管理費用-薪資支出,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
@@ -839,14 +839,14 @@ account_632900,632900,研究發展費用-委託研究費,FALSE,account.data_acco
 account_633100,633100,研究發展費用-訓練費,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_638800,638800,研究發展費用-其他費用,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_640000,640000,研究發展費用-其他費用,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
-account_645000,645000,預期信用減損損失(利益),FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
+account_645000,645000,預期信用減損損失（利益）,FALSE,account.data_account_type_expenses,l10n_chart_taiwan_standard_business
 account_651000,651000,其他收益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_655000,655000,其他費損,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_701000,701000,其他收入,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_702000,702000,其他利益及損失,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_703000,703000,除列按攤銷後成本衡量金融資產淨損益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_705000,705000,財務成本,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
-account_705500,705500,預期信用減損損失(利益),FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
+account_705500,705500,預期信用減損損失（利益）,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_706000,706000,採用權益法認列之關聯企業及合資損益之份額,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_707000,707000,採用權益法認列之子公司、關聯企業及合資損益之份額,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_708000,708000,金融資產重分類淨損益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
@@ -877,7 +877,7 @@ account_721500,721500,處分投資性不動產利益,FALSE,account.data_account_
 account_722000,722000,處分無形資產利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_722500,722500,處分投資利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_723000,723000,外幣兌換利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
-account_723500,723500,透過損益按公允價值衡量之金融資產(負債)利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
+account_723500,723500,透過損益按公允價值衡量之金融資產（負債）利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_724000,724000,按攤銷後成本衡量之金融負債利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_724500,724500,原始認列生物資產及農產品之利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_725000,725000,生物資產當期公允價值減出售成本之變動之利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
@@ -886,13 +886,13 @@ account_726000,726000,不動產、廠房及設備重估價利益,FALSE,account.d
 account_726500,726500,無形資產重估價利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_727000,727000,減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_727100,727100,金融資產減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
-account_727200,727200,待出售非流動資產(或處分群組)減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
+account_727200,727200,待出售非流動資產（或處分群組）減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_727300,727300,不動產、廠房及設備減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_727400,727400,投資性不動產減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_727500,727500,無形資產減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_727600,727600,生物資產減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_727700,727700,探勘及評估資產減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
-account_727800,727800,待分配予業主之非流動資產(或處分群組)減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
+account_727800,727800,待分配予業主之非流動資產（或處分群組）減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_727900,727900,其他減損迴轉利益,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_730000,730000,避險工具之利益-公允價值避險,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
 account_730500,730500,歸因於所規避風險之被避險項目之利益-公允價值避險,FALSE,account.data_account_type_other_income,l10n_chart_taiwan_standard_business
@@ -920,7 +920,7 @@ account_761500,761500,處分投資性不動產損失,FALSE,l10n_tw_standard_ifrs
 account_762000,762000,處分無形資產損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_762500,762500,處分投資損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_763000,763000,外幣兌換損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
-account_763500,763500,透過損益按公允價值衡量之金融資產(負債)損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
+account_763500,763500,透過損益按公允價值衡量之金融資產（負債）損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_764000,764000,按攤銷後成本衡量之金融負債損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_764500,764500,原始認列生物資產及農產品之損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_765000,765000,生物資產當期公允價值減出售成本之變動之損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
@@ -929,13 +929,13 @@ account_766000,766000,不動產、廠房及設備重估價損失,FALSE,l10n_tw_s
 account_766500,766500,無形資產重估價損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_767000,767000,減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_767100,767100,金融資產減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
-account_767200,767200,待出售非流動資產(或處分群組)減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
+account_767200,767200,待出售非流動資產（或處分群組）減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_767300,767300,不動產、廠房及設備減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_767400,767400,投資性不動產減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_767500,767500,無形資產減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_767600,767600,生物資產減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_767700,767700,探勘及評估資產減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
-account_767800,767800,待分配予業主之非流動資產(或處分群組)減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
+account_767800,767800,待分配予業主之非流動資產（或處分群組）減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_767900,767900,其他減損損失,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_770000,770000,避險工具之損失-公允價值避險,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
 account_770500,770500,歸因於所規避風險之被避險項目之損失-公允價值避險,FALSE,l10n_tw_standard_ifrss.account_type_non-operating_expenses,l10n_chart_taiwan_standard_business
@@ -951,13 +951,13 @@ account_795000,795000,所得稅費用（利益）,FALSE,l10n_tw_standard_ifrss.a
 account_795100,795100,本期所得稅費用（利益）,FALSE,l10n_tw_standard_ifrss.account_type_income_tax_expense,l10n_chart_taiwan_standard_business
 account_795200,795200,遞延所得稅費用（利益）,FALSE,l10n_tw_standard_ifrss.account_type_income_tax_expense,l10n_chart_taiwan_standard_business
 account_810100,810100,停業單位稅後損益,FALSE,l10n_tw_standard_ifrss.account_type_discontinued_operations,l10n_chart_taiwan_standard_business
-account_810200,810200,停業單位資產或處分群組處分損益(稅後),FALSE,l10n_tw_standard_ifrss.account_type_discontinued_operations,l10n_chart_taiwan_standard_business
-account_810300,810300,"停業單位資產或處分群組按公允價值減出售成本衡量損益		(稅後)",FALSE,l10n_tw_standard_ifrss.account_type_discontinued_operations,l10n_chart_taiwan_standard_business
+account_810200,810200,停業單位資產或處分群組處分損益（稅後）,FALSE,l10n_tw_standard_ifrss.account_type_discontinued_operations,l10n_chart_taiwan_standard_business
+account_810300,810300,"停業單位資產或處分群組按公允價值減出售成本衡量損益（稅後）",FALSE,l10n_tw_standard_ifrss.account_type_discontinued_operations,l10n_chart_taiwan_standard_business
 account_831100,831100,確定福利計畫之再衡量數,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_831200,831200,不動產重估增值,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_831300,831300,指定按公允價值衡量之金融負債信用風險變動影響數,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_831400,831400,與待出售非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_831500,831500,與待分配予業主之非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_831400,831400,與待出售非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_831500,831500,與待分配予業主之非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_831600,831600,透過其他綜合損益按公允價值衡量之權益工具投資未實現評價損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_831700,831700,避險工具之損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_832000,832000,採用權益法認列之關聯企業及合資之其他綜合損益之份額-不重分類至損益之項目,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
@@ -965,7 +965,7 @@ account_832100,832100,採用權益法認列關聯企業及合資之確定福利�
 account_832200,832200,採用權益法認列關聯企業及合資之不動產重估增值,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_832300,832300,採用權益法認列關聯企業及合資之指定損益按公允價值衡量之金融負債信用風險變動影響數,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_832400,832400,採用權益法認列關聯企業及合資之與待出售非流動資產直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_832500,832500,採用權益法認列關聯企業及合資之與與待分配予業主之非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_832500,832500,採用權益法認列關聯企業及合資之與與待分配予業主之非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_832600,832600,採用權益法認列關聯企業及合資之透過其他綜合損益按公允價值衡量權益工具未實現評價損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_832700,832700,採用權益法認列關聯企業及合資之避險工具之損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_833000,833000,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-不重分類至損益之項目,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
@@ -973,7 +973,7 @@ account_833100,833100,採用權益法認列子公司、關聯企業及合資之�
 account_833200,833200,採用權益法認列子公司、關聯企業及合資之不動產重估增值,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_833300,833300,採用權益法認列子公司、關聯企業及合資之指定損益按公允價值衡量之金融負債信用風險變動影響數,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_833400,833400,採用權益法認列子公司、關聯企業及合資之與待出售非流動資產直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_833500,833500,採用權益法認列之子公司、關聯企業及合資之與與待分配予業主之非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_833500,833500,採用權益法認列之子公司、關聯企業及合資之與與待分配予業主之非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_833600,833600,採用權益法認列子公司、關聯企業及合資之透過其他綜合損益按公允價值衡量權益工具未實現損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_833700,833700,採用權益法認列子公司、關聯企業及合資之避險工具之損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_834100,834100,不重分類至損益之其他項目,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
@@ -981,28 +981,28 @@ account_834900,834900,與不重分類之項目相關之所得稅,FALSE,l10n_tw_s
 account_836000,836000,後續可能重分類至損益之項目,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_836100,836100,國外營運機構財務報表換算之兌換差額,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_836200,836200,備供出售金融資產未實現評價損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_836300,836300,現金流量避險中屬有效避險部分之避險工具利益(損失),FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_836400,836400,國外營運機構淨投資避險中屬有效避險部分之避險工具利益(損失),FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_836500,836500,與待出售非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_836600,836600,與待分配予業主之非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_836300,836300,現金流量避險中屬有效避險部分之避險工具利益（損失）,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_836400,836400,國外營運機構淨投資避險中屬有效避險部分之避險工具利益（損失）,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_836500,836500,與待出售非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_836600,836600,與待分配予業主之非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_836700,836700,透過其他綜合損益按公允價值衡量之債務工具投資未實現評價損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_836800,836800,避險工具之損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_837000,837000,採用權益法認列關聯企業及合資之其他綜合損益之份額-可能重分類至損益之項目,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_837100,837100,採用權益法認列關聯企業及合資之國外營運機構財務報表換算之兌換差額,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_837200,837200,採用權益法認列關聯企業及合資之備供出售金融資產未實現損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_837300,837300,採用權益法認列關聯企業及合資之現金流量避險中屬有效避險部分之避險工具利益(損失),FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_837400,837400,採用權益法認列關聯企業及合資國外營運機構淨投資避險中屬有效避險部分之避險工具利益(損失),FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_837500,837500,採用權益法認列之關聯企業及合資之其他綜合損益之份額-與待出售非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_837600,837600,採用權益法認列之關聯企業及合資之其他綜合損益之份額-與待分配予業主之非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_837300,837300,採用權益法認列關聯企業及合資之現金流量避險中屬有效避險部分之避險工具利益（損失）,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_837400,837400,採用權益法認列關聯企業及合資國外營運機構淨投資避險中屬有效避險部分之避險工具利益（損失）,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_837500,837500,採用權益法認列之關聯企業及合資之其他綜合損益之份額-與待出售非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_837600,837600,採用權益法認列之關聯企業及合資之其他綜合損益之份額-與待分配予業主之非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_837700,837700,採用權益法認列之關聯企業及合資之其他綜合損益之份額-透過其他綜合損益按公允價值衡量之債務工具投資未實現評價損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_837800,837800,採用權益法認列之關聯企業及合資之其他綜合損益之份額-避險工具之損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_838000,838000,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-可能重分類至損益之項目,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_838100,838100,採用權益法認列子公司、關聯企業及合資之國外營運機構財務報表換算之兌換差額,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_838200,838200,採用權益法認列子公司、關聯企業及合資之備供出售金融資產未實現損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_838300,838300,採用權益法認列子公司、關聯企業及合資之現金流量避險中屬有效避險部分之避險工具利益(損失),FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_838400,838400,採用權益法認列子公司、關聯企業及合資之國外營運機構淨投資避險中屬有效避險部分之避險工具利益(損失),FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_838500,838500,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-與待出售非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
-account_838600,838600,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-與待分配予業主之非流動資產(或處分群組)直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_838300,838300,採用權益法認列子公司、關聯企業及合資之現金流量避險中屬有效避險部分之避險工具利益（損失）,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_838400,838400,採用權益法認列子公司、關聯企業及合資之國外營運機構淨投資避險中屬有效避險部分之避險工具利益（損失）,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_838500,838500,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-與待出售非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
+account_838600,838600,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-與待分配予業主之非流動資產（或處分群組）直接相關之權益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_838700,838700,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-透過其他綜合損益按公允價值衡量之債務工具投資未實現評價損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_838800,838800,採用權益法認列之子公司、關聯企業及合資之其他綜合損益之份額-避險工具之損益,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
 account_839100,839100,可能重分類至損益之其他項目,FALSE,l10n_tw_standard_ifrss.account_type_other_comprehensive,l10n_chart_taiwan_standard_business
