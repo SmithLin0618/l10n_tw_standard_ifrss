@@ -17,7 +17,6 @@ account_112100,112100,透過其他綜合損益按公允價值衡量之權益工�
 account_112200,112200,透過其他綜合損益按公允價值衡量之權益工具投資評價調整-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_112300,112300,透過其他綜合損益按公允價值衡量之債務工具投資-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_112400,112400,透過其他綜合損益按公允價值衡量之債務工具投資評價調整-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
-account_112500,112500,備供出售金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_112600,112600,備供出售金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_112700,112700,備供出售金融資產評價調整-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_112900,112900,累計減損-備供出售金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
@@ -29,10 +28,8 @@ account_113600,113600,按攤銷後成本衡量之金融資產-流動,FALSE,accou
 account_113700,113700,按攤銷後成本衡量之金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_113800,113800,備抵損失-按攤銷後成本衡量之金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_113900,113900,避險之金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
-account_114000,114000,合約資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_114100,114100,合約資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_114200,114200,備抵損失-合約資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
-account_114400,114400,以成本衡量之金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_114500,114500,以成本衡量之金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_114600,114600,累計減損-以成本衡量之金融資產-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_114700,114700,無活絡市場之債務工具投資-流動,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
@@ -47,7 +44,6 @@ account_116200,116200,其他應收票據-關係人,TRUE,account.data_account_typ
 account_116300,116300,應收票據貼現-關係人,TRUE,account.data_account_type_receivable,l10n_tw.tw_chart_template
 account_116900,116900,備抵損失-應收關係人票據,TRUE,account.data_account_type_receivable,l10n_tw.tw_chart_template
 account_117100,117100,應收銷售及管理費(證券投資信託業適用),TRUE,account.data_account_type_receivable,l10n_tw.tw_chart_template
-account_117200,117200,應收帳款,TRUE,account.data_account_type_receivable,l10n_tw.tw_chart_template
 account_117300,117300,應收分期帳款,TRUE,account.data_account_type_receivable,l10n_tw.tw_chart_template
 account_117400,117400,未實現利息收入-應收分期帳款,TRUE,account.data_account_type_receivable,l10n_tw.tw_chart_template
 account_117500,117500,應收租賃款,TRUE,account.data_account_type_receivable,l10n_tw.tw_chart_template
@@ -78,7 +74,6 @@ account_122000,122000,本期所得稅資產,FALSE,account.data_account_type_curr
 account_122100,122100,應收所得稅退稅款,TRUE,account.data_account_type_receivable,l10n_tw.tw_chart_template
 account_122200,122200,預付所得稅,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_130000,130000,存貨-買賣業,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
-account_130100,130100,商品存貨,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_130200,130200,寄銷品,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_130800,130800,在途商品,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
 account_130900,130900,備抵存貨跌價,FALSE,account.data_account_type_current_assets,l10n_tw.tw_chart_template
@@ -164,7 +159,6 @@ account_151800,151800,透過其他綜合損益按公允價值衡量之權益工�
 account_151900,151900,透過其他綜合損益按公允價值衡量之權益工具投資評價調整-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_152100,152100,透過其他綜合損益按公允價值衡量之金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_152200,152200,透過其他綜合損益按公允價值衡量之金融資產評價調整-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
-account_152300,152300,備供出售金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_152400,152400,備供出售金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_152500,152500,備供出售金融資產評價調整-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_152600,152600,累計減損-備供出售金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
@@ -176,7 +170,6 @@ account_153500,153500,按攤銷後成本衡量之金融資產-非流動,FALSE,ac
 account_153600,153600,按攤銷後成本衡量之金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_153700,153700,備抵損失-按攤銷後成本衡量之金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_153800,153800,避險之金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
-account_154300,154300,以成本衡量之金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_154400,154400,以成本衡量之金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_154500,154500,累計減損-以成本衡量之金融資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_154600,154600,無活絡市場之債務工具投資-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
@@ -185,7 +178,6 @@ account_154800,154800,累計減損-無活絡市場之債務工具投資-非流�
 account_155000,155000,採用權益法之投資,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_155100,155100,採用權益法之投資,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_155300,155300,累計減損－採用權益法之投資,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
-account_156000,156000,合約資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_156100,156100,合約資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_156200,156200,備抵損失-合約資產-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_160200,160200,土地成本,FALSE,account.data_account_type_fixed_assets,l10n_tw.tw_chart_template
@@ -390,7 +382,6 @@ account_195000,195000,基金,FALSE,account.data_account_type_non_current_assets,
 account_195100,195100,償債基金,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_195200,195200,改良及擴充基金,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_195300,195300,其他基金,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
-account_195500,195500,取得合約之增額成本-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_195600,195600,取得合約之增額成本-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_196000,196000,預付投資款,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_196500,196500,待退回產品權利-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
@@ -404,7 +395,6 @@ account_198000,198000,其他金融資產－非流動,FALSE,account.data_account_
 account_198100,198100,人壽保險現金解約價值,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_198400,198400,其他金融資產-其他-非流動,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_198500,198500,長期預付租金,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
-account_199000,199000,其他非流動資產-其他,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_199200,199200,未實現售後租回損失,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_199300,199300,陳飾品,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
 account_199500,199500,其他非流動資產-其他,FALSE,account.data_account_type_non_current_assets,l10n_tw.tw_chart_template
@@ -413,7 +403,6 @@ account_210000,210000,短期借款,FALSE,account.data_account_type_current_liabi
 account_210100,210100,銀行透支,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
 account_210200,210200,銀行借款,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
 account_210800,210800,其他短期借款,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
-account_211000,211000,應付短期票券,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
 account_211100,211100,應付短期票券,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
 account_211600,211600,附買回債券負債,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
 account_211900,211900,應付短期票券折價,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
@@ -431,15 +420,11 @@ account_213200,213200,預收房地款,FALSE,account.data_account_type_current_li
 account_213300,213300,預收收入,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
 account_213900,213900,其他合約負債,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
 account_214500,214500,以成本衡量之金融負債-流動,FALSE,account.data_account_type_current_liabilities,l10n_tw.tw_chart_template
-account_215000,215000,應付票據,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
 account_215100,215100,應付票據,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
 account_215200,215200,其他應付票據,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
-account_216000,216000,應付票據-關係人,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
 account_216100,216100,應付票據-關係人,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
 account_216200,216200,其他應付票據-關係人,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
-account_217000,217000,應付帳款,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
 account_217200,217200,暫估應付帳款,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
-account_218000,218000,應付帳款-關係人,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
 account_218100,218100,應付帳款-關係人,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
 account_218200,218200,暫估應付帳款-關係人,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
 account_219000,219000,應付建造合約款,TRUE,account.data_account_type_payable,l10n_tw.tw_chart_template
@@ -506,7 +491,6 @@ account_251100,251100,避險之金融負債-非流動,FALSE,account.data_account
 account_252000,252000,按攤銷後成本衡量之金融負債-非流動,FALSE,account.data_account_type_non_current_liabilities,l10n_tw.tw_chart_template
 account_252500,252500,以成本衡量之金融負債-非流動,FALSE,account.data_account_type_non_current_liabilities,l10n_tw.tw_chart_template
 account_252700,252700,合約負債-非流動,FALSE,account.data_account_type_non_current_liabilities,l10n_tw.tw_chart_template
-account_253000,253000,應付公司債,FALSE,account.data_account_type_non_current_liabilities,l10n_tw.tw_chart_template
 account_253100,253100,應付公司債,FALSE,account.data_account_type_non_current_liabilities,l10n_tw.tw_chart_template
 account_253200,253200,應付公司債溢(折)價,FALSE,account.data_account_type_non_current_liabilities,l10n_tw.tw_chart_template
 account_254000,254000,長期借款,FALSE,account.data_account_type_non_current_liabilities,l10n_tw.tw_chart_template
@@ -633,7 +617,6 @@ account_360000,360000,非控制權益,FALSE,account.data_account_type_equity,l10
 account_399700,399700,待註銷股本股數,FALSE,account.data_account_type_equity,l10n_tw.tw_chart_template
 account_399800,399800,預收股款(權益項下)之約當發行股數,FALSE,account.data_account_type_equity,l10n_tw.tw_chart_template
 account_399900,399900,母公司暨子公司所持有之母公司庫藏股股數(單位:股),FALSE,account.data_account_type_equity,l10n_tw.tw_chart_template
-account_411000,411000,銷貨收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_411200,411200,天然氣銷貨收入(天然氣業),FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_412000,412000,專櫃銷貨收入(百貨業適用),FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_413000,413000,分期付款銷貨收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
@@ -649,7 +632,6 @@ account_423000,423000,債息收入,FALSE,account.data_account_type_revenue,l10n_
 account_424000,424000,利息收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_425000,425000,酬勞收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_426000,426000,地產出售收入(開發投資公司適用),FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_430000,430000,租賃收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_431000,431000,租賃收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_433000,433000,倉儲收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_440000,440000,旅遊服務收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
@@ -668,11 +650,8 @@ account_450000,450000,營建工程收入,FALSE,account.data_account_type_revenue
 account_451000,451000,營建收入(營建業適用),FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_451100,451100,營建收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_451900,451900,營建收入退回及折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_452000,452000,工程收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_452100,452100,工程收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_452900,452900,工程收入退回及折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_460000,460000,勞務收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_461000,461000,勞務收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_461100,461100,勞務收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_461200,461200,拆併櫃收入(海陸運輸業適用),FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_461300,461300,代理業收入(海陸運輸業適用),FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
@@ -688,35 +667,27 @@ account_462200,462200,陸運收入(海陸運輸業適用),FALSE,account.data_acc
 account_462300,462300,空運收入(航空業適用),FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_462900,462900,運輸收入折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_463000,463000,空中營業收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_464000,464000,裝置收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_464100,464100,裝置收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_464900,464900,裝置收入折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_465000,465000,技術服務收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_465100,465100,技術服務收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_465900,465900,技術服務收入折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_466000,466000,加工收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_466100,466100,加工收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_466900,466900,加工收入折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_467000,467000,維修收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_467100,467100,維修收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_467900,467900,維修收入折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_468000,468000,其他勞務收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_468100,468100,其他勞務收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_468900,468900,其他勞務收入折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
-account_480000,480000,其他營業收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_488100,488100,其他營業收入,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_488900,488900,其他營業收入折讓,FALSE,account.data_account_type_revenue,l10n_tw.tw_chart_template
 account_511200,511200,天然氣銷貨成本(天然氣業),FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_512000,512000,專櫃銷貨成本(百貨業適用),FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_520000,520000,投資支出(投資公司適用),FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_521000,521000,金融資產(負債)出售淨損失,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
-account_522000,522000,投資損失,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_522100,522100,投資損失,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_522200,522200,採用權益法之關聯企業及合資損失之份額,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_522300,522300,透過損益按公允價值衡量之金融資產(負債)損失,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_524000,524000,利息費用,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_526000,526000,地產出售成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
-account_530000,530000,租賃成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_531000,531000,租賃成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_533000,533000,倉儲成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_534000,534000,電信成本(電訊網路業),FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
@@ -733,8 +704,6 @@ account_542300,542300,遊樂成本,FALSE,account.data_account_type_direct_costs,
 account_550000,550000,營建工程成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_551000,551000,營建成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_552000,552000,工程成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
-account_560000,560000,勞務成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
-account_561000,561000,勞務成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_561100,561100,勞務成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_561800,561800,設計成本,FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
 account_562000,562000,"運輸成本(海陸運輸業、航空業適用)		",FALSE,account.data_account_type_direct_costs,l10n_tw.tw_chart_template
@@ -833,7 +802,6 @@ account_632800,632800,研究發展費用-職工福利,FALSE,account.data_account
 account_632900,632900,研究發展費用-委託研究費,FALSE,account.data_account_type_expenses,l10n_tw.tw_chart_template
 account_633100,633100,研究發展費用-訓練費,FALSE,account.data_account_type_expenses,l10n_tw.tw_chart_template
 account_638800,638800,研究發展費用-其他費用,FALSE,account.data_account_type_expenses,l10n_tw.tw_chart_template
-account_640000,640000,研究發展費用-其他費用,FALSE,account.data_account_type_expenses,l10n_tw.tw_chart_template
 account_645000,645000,預期信用減損損失(利益),FALSE,account.data_account_type_expenses,l10n_tw.tw_chart_template
 account_651000,651000,其他收益,FALSE,account.data_account_type_other_income,l10n_tw.tw_chart_template
 account_655000,655000,其他費損,FALSE,account.data_account_type_other_income,l10n_tw.tw_chart_template
