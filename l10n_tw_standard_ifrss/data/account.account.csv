@@ -1,10 +1,4 @@
 id,code,name,reconcile,user_type_id/id
-account_one_110000,110000,現金及約當現金,FALSE,account.data_account_type_liquidity
-account_one_110100,110100,庫存現金,FALSE,account.data_account_type_liquidity
-account_one_110200,110200,零用金／週轉金,FALSE,account.data_account_type_liquidity
-account_one_110300,110300,銀行存款,FALSE,account.data_account_type_liquidity
-account_one_110500,110500,在途現金,FALSE,account.data_account_type_liquidity
-account_one_110700,110700,約當現金,FALSE,account.data_account_type_liquidity
 account_one_111000,111000,透過損益按公允價值衡量之金融資產-流動,FALSE,account.data_account_type_current_assets
 account_one_111100,111100,原始認列時指定為透過損益按公允價值衡量之金融資產-流動,FALSE,account.data_account_type_current_assets
 account_one_111200,111200,原始認列時指定為透過損益按公允價值衡量之金融資產評價調整-流動,FALSE,account.data_account_type_current_assets
