@@ -10,6 +10,7 @@
     'depends': ['base', 'account','l10n_tw','accounting_pdf_reports'],
     'website': 'https://www.yuanchih-consult.com',
     'images': ['static/description/twbs-1.png'],
+    'license': 'LGPL-3',
     'description': """
 
 本模塊於14版進行功能任務調整，調整後提供以下功能：
