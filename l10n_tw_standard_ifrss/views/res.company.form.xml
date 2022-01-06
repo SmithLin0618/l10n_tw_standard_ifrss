@@ -31,4 +31,14 @@
                 </xpath>
             </field>
      </record>
+   <record id="account_account_list_inherit" model="ir.ui.view">
+        <field name="name">account.account.list.inherit</field>
+        <field name="model">account.account</field>
+        <field name="inherit_id" ref="account.view_account_list"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='reconcile']" position="after">
+                <field name="deprecated" optional="hide"/>
+            </xpath>
+        </field>
+    </record>
 </odoo>
