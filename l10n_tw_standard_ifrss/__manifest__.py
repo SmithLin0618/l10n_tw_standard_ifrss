@@ -4,7 +4,7 @@
 
 {
     'name': '台灣常用會計科目與台灣財務報表結構(社區版)',
-    'version': '1.1',
+    'version': '1.2',
     'category': 'Localization',
     'author': ['元植SmithLin'],
     'depends': ['base', 'account','l10n_tw','accounting_pdf_reports'],
@@ -14,7 +14,7 @@
 
 本模塊於14版進行功能任務調整，調整後提供以下功能：
 
-*1.台灣常用會計項目匯入
+*1.台灣常用會計項目匯入(15版依經濟部商業司-商業會計項目表編制(109年版))
 
 *2.依odoo社區版財務報表模組(accounting_pdf_reports)為報表基礎呈現之台灣使用習慣財務報表結構
 
