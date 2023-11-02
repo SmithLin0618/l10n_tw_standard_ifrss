@@ -6,6 +6,7 @@
     'name': '台灣常用會計科目與台灣財務報表結構(社區版)',
     'version': '1.5',
     'category': 'Localization',
+    'license': 'LGPL-3',
     'author': ['元植SmithLin'],
     'depends': ['base', 'account','l10n_tw','accounting_pdf_reports'],
     'website': 'https://www.yuanchih-consult.com',
