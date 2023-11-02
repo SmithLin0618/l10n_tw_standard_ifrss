@@ -4,7 +4,7 @@
 
 {
     'name': '台灣常用會計科目與台灣財務報表結構(社區版)',
-    'version': '1.2',
+    'version': '1.8',
     'category': 'Localization',
     'license': 'LGPL-3',
     'author': ['元植SmithLin'],
