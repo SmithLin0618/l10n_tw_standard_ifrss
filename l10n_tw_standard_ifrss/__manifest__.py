@@ -10,7 +10,6 @@
     'depends': ['base', 'account','l10n_tw','accounting_pdf_reports'],
     'website': 'https://www.yuanchih-consult.com',
     'images': ['static/description/twbs-1.png'],
-    'license': 'LGPL-3',
     'description': """
 
 本模塊於14版進行功能任務調整，調整後提供以下功能：
@@ -49,10 +48,11 @@ https://github.com/Odoo-Taiwan/l10n_tw
 
     'data': [
         'data/account_account_type_data.xml',
-        'data/account.account.template.csv',
+#        'data/account.account.template.csv',
         'data/account.financial.report.csv',
         'data/account.financial.report.xml',
         'views/res.company.form.xml',
-        'data/account.account.csv',
+        'data/res.bank.csv',
+#        'data/account.account.csv',
     ],
 }
