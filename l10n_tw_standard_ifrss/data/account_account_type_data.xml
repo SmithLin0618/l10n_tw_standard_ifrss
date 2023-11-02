@@ -11,23 +11,23 @@
         <!-- 新增營業外支出與所得稅費用類別 -->
         <record id="account_type_non-operating_expenses" model="account.account.type">
             <field name="name">其他支出</field>
-            <field name="type">other</field>
-            <field name="internal_group">expense</field>
+            <field name="type">expense_non-operating_expenses</field>
+<!--            <field name="internal_group">expense</field>-->
         </record>
         <record id="account_type_income_tax_expense" model="account.account.type">
             <field name="name">所得稅費用</field>
-            <field name="type">other</field>
-            <field name="internal_group">expense</field>
+            <field name="type">expense_income_tax_expense</field>
+<!--            <field name="internal_group">expense</field>-->
         </record>
         <record id="account_type_other_comprehensive" model="account.account.type">
             <field name="name">其他綜合損益</field>
-            <field name="type">other</field>
-            <field name="internal_group">expense</field>
+            <field name="type">expense_other_comprehensive</field>
+<!--            <field name="internal_group">expense</field>-->
         </record>
         <record id="account_type_discontinued_operations" model="account.account.type">
             <field name="name">停業部門損益</field>
-            <field name="type">other</field>
-            <field name="internal_group">expense</field>
+            <field name="type">expense_discontinued_operations</field>
+<!--            <field name="internal_group">expense</field>-->
         </record>
     </data>
     <data noupdate="1">
@@ -37,4 +37,56 @@
             <field name="position">before</field>
         </record>
     </data>
+
+<!--    20230716 調整odoo原生系統的會計科目設定為正確類型 account.account-->
+    <data noupdate="1">
+        <record id="l10n_tw.1_tw_715100" model="account.account">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>
+        <record id="l10n_tw.1_tw_717200" model="account.account">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>
+        <record id="l10n_tw.1_tw_718200" model="account.account">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>
+        <record id="l10n_tw.1_tw_718600" model="account.account">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>   
+        <record id="l10n_tw.1_tw_719200" model="account.account">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>
+        <record id="l10n_tw.1_tw_720200" model="account.account">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>        
+        <record id="l10n_tw.1_tw_821100" model="account.account">
+            <field name="account_type">expense_income_tax_expense</field>
+        </record>
+<!--    20230716 調整odoo原生系統的會計科目設定為正確類型 account.account.templete-->
+        <record id="l10n_tw.tw_715100" model="account.account.template">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>
+        <record id="l10n_tw.tw_717200" model="account.account.template">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>
+        <record id="l10n_tw.tw_718200" model="account.account.template">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>
+        <record id="l10n_tw.tw_718600" model="account.account.template">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>   
+        <record id="l10n_tw.tw_719200" model="account.account.template">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>
+        <record id="l10n_tw.tw_720200" model="account.account.template">
+            <field name="account_type">expense_non-operating_expenses</field>
+        </record>        
+        <record id="l10n_tw.tw_821100" model="account.account.template">
+            <field name="account_type">expense_income_tax_expense</field>
+        </record>
+
+
+    </data>
+
 </odoo>
+
+

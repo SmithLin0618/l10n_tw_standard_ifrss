@@ -4,7 +4,7 @@
 
 {
     'name': '台灣常用會計科目與台灣財務報表結構(社區版)',
-    'version': '1.2',
+    'version': '1.5',
     'category': 'Localization',
     'author': ['元植SmithLin'],
     'depends': ['base', 'account','l10n_tw','accounting_pdf_reports'],
@@ -12,7 +12,7 @@
     'images': ['static/description/twbs-1.png'],
     'description': """
 
-本模塊於14版進行功能任務調整，調整後提供以下功能：
+本模塊於16版進行功能任務調整，調整後提供以下功能：
 
 *1.台灣常用會計項目匯入(15版依經濟部商業司-商業會計項目表編制(109年版))
 
@@ -25,10 +25,6 @@ https://www.yuanchih-consult.com/blog/odoo-1/post/odooodoo-15
 odoo社區版系統上線前之基礎知識-odoo應用雲端課程說明：
 
 https://www.yuanchih-consult.com/page/onlineclass
-
-*本模組之使用請先下載並安裝l10n_tw模組
-
-https://github.com/Odoo-Taiwan/l10n_tw
 
 報表結構呈現範例：
 <img src="general_ledger_filter.png">
@@ -52,7 +48,6 @@ https://github.com/Odoo-Taiwan/l10n_tw
         'data/account.financial.report.csv',
         'data/account.financial.report.xml',
         'views/res.company.form.xml',
-        'data/res.bank.csv',
 #        'data/account.account.csv',
     ],
 }
